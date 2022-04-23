@@ -1,0 +1,33 @@
+/* CSS Document */
+body {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+h3 {
+	color: orangered;
+}
+
+.unsichtbar {display:none;}
+nav ul {
+  padding-left: 0;
+  display: flex;
+  color: white;
+}
+
+nav li {
+  list-style-type:none;
+  margin-right: 1px;
+}
+
+nav li a:link {
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  background-color: orangered;
+  width:6em;
+  padding: 0.2em;
+}
+
+a {
+	color: white;
+}
